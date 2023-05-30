@@ -1,0 +1,56 @@
+/* 
+SELECTOR FROM CHATGPT NAV
+
+div.dark.flex-shrink-0.overflow-x-hidden.bg-gray-900,
+div.scrollbar-trigger.relative.h-full.w-full.flex-1.items-start {
+} 
+*/
+
+div.scrollbar-trigger.relative.h-full.w-full.flex-1.items-start.hidden {
+  display: none;
+}
+
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+
+  position: fixed;
+  top: 0.8rem;
+  left: 17.2rem;
+
+  transform: scale(0.65);
+}
+
+.bar {
+  width: 100%;
+  height: 5px;
+  background-color: #fff;
+  margin: 3px 0;
+
+  border-radius: 5px;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.burger-menu.open .bar:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 9px);
+}
+
+.burger-menu.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu.open .bar:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -9px);
+}
+
+.flex.p-4.gap-4.text-base {
+  min-width: calc(100% - 10rem) !important;
+}
