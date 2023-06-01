@@ -2,6 +2,9 @@
   "manifest_version": 2,
   "name": "ChatGPT Utils",
   "version": "1.0",
+  "icons": {
+    "48": "./assets/icon.ico"
+  },
   "content_scripts": [
     {
       "matches": ["*://*/*"],
