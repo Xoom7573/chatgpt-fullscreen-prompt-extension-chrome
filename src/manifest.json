@@ -4,7 +4,7 @@
   "version": "1.0",
   "action": {
     "default_icon": {
-      "64": "./assets/icon_64x64.jpg"
+      "48": "assets/icons/icon_64x64.jpg"
     },
     "default_popup": "popup.html"
   },
@@ -12,13 +12,12 @@
   "content_scripts": [
     {
       "matches": ["https://chat.openai.com/*"],
-      "js": ["content.js"],
-      "css": ["style.css"]
+      "js": ["assets/js/content.js"],
+      "css": ["assets/css/style.css"]
     }
   ],
-  "host_permissions": ["https://chat.openai.com/*"],
   "icons": {
-    "48": "./assets/icon_48x48.jpg",
-    "64": "./assets/icon_64x64.jpg"
+    "48": "assets/icon_48x48.jpg",
+    "64": "assets/icon_64x64.jpg"
   }
 }
