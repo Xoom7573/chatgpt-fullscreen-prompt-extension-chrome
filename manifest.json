@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "ChatGPT Extension",
+  "name": "ChatGPT Utils",
   "version": "1.0",
   "content_scripts": [
     {
