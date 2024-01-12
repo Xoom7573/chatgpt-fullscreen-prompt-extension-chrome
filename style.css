@@ -51,6 +51,7 @@ div.scrollbar-trigger.relative.h-full.w-full.flex-1.items-start.hidden {
   transform: rotate(-45deg) translate(6px, -9px);
 }
 
-.flex.p-4.gap-4.text-base {
-  min-width: calc(100% - 10rem) !important;
+/* GPT TEXT WIDTH SPACE (EDIT) */
+.text-token-text-primary > div > div {
+  min-width: calc(80%) !important;
 }

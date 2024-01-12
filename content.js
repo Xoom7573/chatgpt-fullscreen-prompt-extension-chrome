@@ -39,5 +39,5 @@ function addBurgerMenu() {
 }
 
 window.addEventListener("load", () => {
-  addBurgerMenu();
+  // addBurgerMenu();
 });
